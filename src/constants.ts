@@ -1,0 +1,9 @@
+export const DEFAULT_PATH: string = "migrations";
+export const ALL: string = "all";
+export const PENDING: string = "pending";
+export const EXECUTED: string = "executed";
+export const UP: string = "up";
+export const DOWN: string = "down";
+export const STEP: string = "step";
+export const ID: string = ":id";
+export const COUNT: string = ":count";

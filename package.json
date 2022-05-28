@@ -1,0 +1,38 @@
+{
+  "name": "express-umzug",
+  "version": "2.1.1",
+  "description": "This middleware creates a series of endpoints to help you monitor and manage your database migrations",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/tars-a/express-umzug.git",
+  "author": "",
+  "license": "",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "umzug": "^3.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^8.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^8.3.4",
+    "jest": "^27.5.1",
+    "semantic-release": "^19.0.2",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^4.2.0",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.4",
+    "uuid": "^8.3.2"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
